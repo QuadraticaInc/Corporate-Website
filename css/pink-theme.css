@@ -6363,8 +6363,13 @@ p.rbox-2-txt span {
 
 /*------------------------------------------*/
 /*  BRANDS LOGO IMAGE
-/*------------------------------------------*/ 
+/*------------------------------------------*/
 
+.owl-carousel.owl-drag .owl-item {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
 .brand-logo {
   overflow: hidden;
   position: relative;
