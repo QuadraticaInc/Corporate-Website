@@ -124,7 +124,8 @@
                             <!-- SIMPLE NAVIGATION LINK -->
                             <li class="nl-simple" aria-haspopup="true"><a href="projects.html" class="h-link">Our
                                 Work</a></li>
-                            <li class="nl-simple" aria-haspopup="true"><a href="index.html#about-us" class="h-link">Who Are
+                            <li class="nl-simple" aria-haspopup="true"><a href="index.html#about-us" class="h-link">Who
+                                Are
                                 We</a></li>
 
                             <!--									&lt;!&ndash; DROPDOWN SUB MENU &ndash;&gt;-->
@@ -203,7 +204,8 @@
 
                             <!-- SIGN UP BUTTON -->
                             <li class="nl-simple" aria-haspopup="true">
-                                <a href="contacts.html" class="btn r-04 btn--theme hover--theme last-link">Get in Touch</a>
+                                <a href="contacts.html" class="btn r-04 btn--theme hover--theme last-link">Get in
+                                    Touch</a>
                             </li>
 
 
@@ -277,106 +279,193 @@
                 <div class="project-txt">
                     <h5 class="s-24 w-700 mt-35 mb-35">The Client</h5>
                     <!-- Text -->
-                    <p> Envisor was a fintech startup based out of New York that aimed to create performance management
-                        software for asset managers with complex fund setups. With nearly $100 billion of assets under
-                        administration, Envisor handled the performance management reporting of some of the most
-                        demanding Hedge Funds, Private Equities, and Fund of Funds in the US, including Makena Capital
-                        Management, Sequoia Capital, and Commonfund.
-
-                        Investcloud acquired Envisor to integrate the performance management technologies into their
-                        broader industry tooling.
-
-
+                    <p> FieldVision provides software solutions to entities that wish to monitor environmental variables
+                        through the use of digital sensors. Their initial market was to provide data processing and
+                        reporting for the Agriculture and Agri-Food Canada (AAFC) which collected weather data from
+                        farms across Canada.
                     </p>
 
                     <h5 class="s-24 w-700 mt-35 mb-35">The Problem</h5>
                     <!-- Text -->
-                    <p>Hedge Funds, Private Equities, and Fund of Funds invest in large numbers of investment vehicles
-                        each of which must be benchmarked against a known benchmark (e.g. S&P 500) individually and as
-                        part of a basket of other investment vehicles that changes over time. The quantity of data that
-                        is required to calculate this performance information is quite large and the accuracy of the
-                        reports is of critical importance.
+                    <p>FieldVision’s core offering is to provide data monitoring and alerting services for their clients
+                        in the farming and construction industries using real-time data collected from IoTs and industry
+                        specific monitoring systems. In order to properly service these sectors, FieldVision had to
+                        solve three key pain points most often faced by their clients.
+                    </p>
 
-                        In addition to fund performance information, Envisor wanted to build a next generation user
-                        experience that allowed fund administrators to more quickly and easily navigate key concepts
-                        such as investment vehicle setup, fund valuation records, and cash flows.
+                    <h6 class="s-24 w-700 mt-35 mb-35">Data Volume and Scale</h6>
+                    <!-- Text -->
+                    <p>Collecting large amounts of data, particularly in the context of Internet of Things (IoT) and
+                        time series data, presents unique challenges for organizations. IoT devices generate continuous
+                        streams of data at an unprecedented scale, often in real-time or near-real-time, requiring
+                        specialized data collection mechanisms and robust infrastructure capable of handling
+                        high-frequency data flows. The diversity of IoT environments and the need to ensure data
+                        integrity add complexity. Harmonizing time series data from various devices with varying
+                        sampling frequencies and formats is crucial for deriving meaningful insights. Furthermore,
+                        addressing data privacy and security concerns, including the need for end-to-end encryption and
+                        access controls, is essential. Balancing the potential benefits of IoT data with the imperative
+                        to safeguard privacy and secure critical infrastructure remains an ongoing challenge for
+                        organizations in this domain.
+                    </p>
+
+                    <h6 class="s-24 w-700 mt-35 mb-35">Real-Time Monitoring and Alerting
+
+                    </h6>
+                    <!-- Text -->
+                    <p>Achieving near real-time updates requires a well-designed infrastructure capable of handling
+                        high-speed data streams efficiently. Latency in data processing can result in delayed alerts,
+                        which can have serious consequences, such as financial losses or safety hazards. Ensuring the
+                        scalability, fault-tolerance, and reliability of alerting systems is paramount, as they need to
+                        operate continuously, even under heavy loads.
+                    </p>
 
 
+                    <h6 class="s-24 w-700 mt-35 mb-35">Reporting</h6>
+
+                    <p>
+                        Generating scheduled reports is a necessary but often time-consuming task for many
+                        organizations.
+                        Extracting relevant information from large datasets, formatting it, and presenting it in a
+                        meaningful way for decision-makers can be a labor-intensive process. Automation tools and report
+                        generation systems can help streamline this process, but they require careful configuration and
+                        maintenance.
                     </p>
 
                     <h5 class="s-24 w-700 mt-35 mb-35">The Solution</h5>
-                    <!-- Text -->
-                    <p>Envisor partnered with Quadratica to develop and maintain a data architecture that handles rapid
-                        daily growth (about .3GB per day of incoming financial records and associated metadata). The
-                        data architecture was developed in a way to review both historical performance and to model
-                        “what-if” scenarios.
+                    <p> FieldVision worked with Quadratica to develop their Client Portal application and strategy for
+                        handling large amounts of data that can come in bursts. The proposed solution is able to scale
+                        with the number of clients as well as devices connected to it.
+                    </p>
+                    <h6 class="s-24 w-700 mt-35 mb-35">Reporting</h6>
 
-                        Simultaneously Envisor worked with Quadratica to outline the complex workflows and personas of
-                        the users of the system to enable the design and implementation (and iteration) of a user
-                        friendly back office interface to rapidly and correctly input investment vehicle information,
-                        fund valuation records, complex cash flow statements, and performance “tree” setups.
+                    <p>
+                        Generating scheduled reports is a necessary but often time-consuming task for many
+                        organizations.
+                        Extracting relevant information from large datasets, formatting it, and presenting it in a
+                        meaningful way for decision-makers can be a labor-intensive process. Automation tools and report
+                        generation systems can help streamline this process, but they require careful configuration and
+                        maintenance.
+                    </p>
+                    <h6 class="s-24 w-700 mt-35 mb-35">Data Management</h6>
 
+                    <p>
+                        There are two ways that clients can submit sensor data to FieldVision’s API. The first way is
+                        through FieldVision’s own GSM or WiFi enabled dongle that connects directly to sensors out in
+                        the field and the second way is through API integration where clients can submit large amounts
+                        of data through a secure API interface. Both methods will push all incoming data to a scalable
+                        ActiveMQ instance where it will await processing from FieldVision’s data processor. This method
+                        allows the API to process data in near real-time as well as not be overwhelmed with large
+                        influxes of data. This is paramount as many devices in the field can go offline for extended
+                        periods of time due to lack of solar power or network connectivity but will still log data for
+                        when power and/or network connectivity is restored resulting in large amounts of data being sent
+                        at once.
+
+                    </p>
+                    <h6 class="s-24 w-700 mt-35 mb-35">Alerts and Notifications
+                    </h6>
+
+                    <p>
+                        Many of FieldVisions clients are in the construction industry where monitoring of existing
+                        infrastructure as well as air and noise quality are extremely important as they must often fall
+                        within regulatory constraints. It is therefore important that any deviations from the norm must
+                        quickly be addressed. Quadratica devised a solution where users can be notified through email or
+                        in the app in real-time but in a way that doesn’t overwhelm the recipient. Alerts are clearly
+                        displayed to the user and details about what triggered the alert can be quickly viewed in the
+                        notification pane on the user’s dashboard.
+
+                    </p>
+                    <h6 class="s-24 w-700 mt-35 mb-35">Automated Customized Reports
+                    </h6>
+
+                    <p>
+                        As stated above, most clients require some sort of reporting to be generated for them that they
+                        can keep for auditing purposes or to quickly share with the wider team. Quadratica devised a
+                        solution where reports can be generated per widget or for an entire dashboard of a user. The
+                        former will provide more detailed information whereas the latter will provide general
+                        information for a quick snapshot.
 
                     </p>
 
-                    <h5 class="s-24 w-700 mt-35 mb-35">Performance Management
-                    </h5>
-                    <!-- Text -->
-                    <p>With a set of databases that grows by around 300MB per day based on incoming financial records,
-                        Quadratica set out to create a data architecture that would scale with the increased demands of
-                        the Envisor user base and the sheer number of funds that were managed in the system.
-
-                        By understanding the complex calculations that were being performed and the requirements of the
-                        end-users, Quadratica was able to create a scalable OLAP cube that could handle all of the
-                        “slice and dice” operations necessitated by the downstream software. In this domain space, it
-                        was quite common to need the results of one computation for a downstream computation, so the
-                        construction of the data architecture was a careful balancing act of memoizing just the right
-                        computations without completely blowing up the storage budget, whilst still maintaining high
-                        performance for all of the real-time and scheduling reporting necessitated by the downstream
-                        consumers.
-
-                        In addition, Quadratica setup High Availability and Disaster Recovery policies for the data
-                        storage tier and did regular tests on these systems to ensure that they functioned correctly.</p>
+                    <div id="about-2" class="rel pt-100 about-section division">
 
 
-                    <h5 class="s-24 w-700 mt-35 mb-35">First Class User Experience</h5>
-
-                    <p> Fund Administration for large scale Fund of Funds is a very complex domain with its own
-                        language, rules, and regulations. Without fully understanding the domain, it is very easy to
-                        create user experiences that look attractive on the surface, but are woefully incomplete. For
-                        example, while the concept of a cash flow is relatively well understood (move money from one
-                        account to another), for a fund of fund, there are a number of considerations that must be taken
-                        to ensure the cash flow records are correct. Concepts such as side-pocketing, one-sided or
-                        double-sided cash flows, and sub-cent accuracy increase both the design complexity and the
-                        technical complexity of building a UI that is fit for purpose.
-
-                        Quadratica worked tirelessly to understand the business domain to a degree where we could
-                        confidently plan out each building block and create reasonable implementation roadmaps for each
-                        feature without having to do rework in the future. A key takeaway of this process was the
-                        requirement of an “evidence based” workflow for any record that was entered in the system,
-                        allowing supervising personnel to quickly review the work of data entry personnel.
-
-                        Once the evidence based workflows were locked down, we worked to iteratively create the features
-                        and receive rapid feedback from key Envisor stakeholders so that we could pivot functionality as
-                        quickly as possible.
-
-                        This new evidence based workflow model drastically streamlined the Fund Administrator’s user
-                        experience. It also added built-in guardrails and reviewable checkpoints to the workflow to
-                        drastically reduce data entry errors.
-                    </p>
-
-                    <h5 class="s-24 w-700 mt-35 mb-35">Conclusion</h5>
-                    <p> Quadratica and Envisor set out on an ambitious plan to create a cutting-edge fund performance
-                        management system that would give unprecedented insight into how large scale hedge funds and
-                        fund of funds were performing on any given day. By taking the time to learn the ins and outs of
-                        the complex financial investment landscape, we were able to deliver a solution that made Envisor
-                        an attractive buy-out target for Investcloud in short order.</p>
+                        <!-- ABOUT-2 IMAGES -->
+                        <div class="container-fluid">
+                            <div class="row">
 
 
+                                <!-- IMAGES-1 -->
+                                <div class="col-md-5">
+                                    <div class="text-end">
 
-                    <div class="post-inner-img">
-                        <img class="img-fluid r-16" src="images/projects/envisor-details.jpeg" alt="blog-post-image">
-                    </div>
+
+                                        <!-- IMAGE-1 -->
+                                        <div class="about-2-img a-2-1 r-12">
+                                            <img class="img-fluid" src="images/projects/fieldvision-1.png" alt="about-image">
+                                        </div>
+
+
+                                        <!-- IMAGE-2 -->
+                                        <div class="about-2-img a-2-2 r-12">
+                                            <img class="img-fluid" src="images/projects/fieldvision-2.png" alt="about-image">
+                                        </div>
+
+
+                                    </div>
+                                </div>	<!-- END IMAGES-1 -->
+
+
+                                <!-- IMAGES-2 -->
+                                <div class="col-md-7">
+
+
+                                    <!-- IMAGE-3 -->
+                                    <div class="about-2-img a-2-3 r-12">
+                                        <img class="img-fluid" src="images/projects/fieldvision-3.png" alt="about-image">
+                                    </div>
+
+
+<!--                                    <div class="row">-->
+
+<!--                                        &lt;!&ndash; TEXT &ndash;&gt;-->
+<!--                                        <div class="col-md-7 col-lg-6">-->
+<!--                                            <div class="a2-txt bg&#45;&#45;black-400 pattern-01 bg&#45;&#45;fixed color&#45;&#45;white r-12">-->
+
+<!--                                                &lt;!&ndash; Icon &ndash;&gt;-->
+<!--                                                <div class="a2-txt-quote ico-40 o-20">-->
+<!--                                                    <span class="flaticon-quote"></span>-->
+<!--                                                </div>-->
+
+<!--                                                &lt;!&ndash; Text &ndash;&gt;-->
+<!--                                                <p>Nullam tempor pretium a gravida donec congue ipsum porta justo integer dolor odio-->
+<!--                                                    auctor a neque suscipit an ipsum integer congue purus at pretium turpis egestas and-->
+<!--                                                    volute laoreet quaerat-->
+<!--                                                </p>-->
+
+<!--                                                &lt;!&ndash; Author &ndash;&gt;-->
+<!--                                                <p class="a2-txt-author">Charlie Cheever <span>CEO & CO-FOUNDER</span></p>-->
+
+<!--                                            </div>-->
+<!--                                        </div>-->
+
+                                        <!-- IMAGE-4 -->
+                                        <div class="col-md-12 col-lg-12">
+                                            <div class="about-2-img a-2-4 r-12">
+                                                <img class="img-fluid" src="images/projects/fieldvision-4.png" alt="about-image">
+                                            </div>
+                                        </div>
+
+                                    </div>	 <!-- End row -->
+
+
+                                </div>	<!-- END IMAGES-2 -->
+
+
+                            </div>	 <!-- End row -->
+                        </div>	  <!-- END ABOUT-2 IMAGES -->
+
+
+                    </div>	<!-- END ABOUT-2 -->
                     <!--                    &lt;!&ndash; Small Title &ndash;&gt;-->
                     <!--                    <h5 class="s-24 w-700 mt-50 mb-35">Project Summary</h5>-->
 
@@ -492,7 +581,7 @@
 
         </div>      <!-- End row -->
 
-</section>    <!-- END SINGLE PROJECT-1 -->
+    </section>    <!-- END SINGLE PROJECT-1 -->
 
     <section id="banner-3" class="pt-100 banner-section">
         <div class="container">
@@ -512,7 +601,8 @@
                                 <h2 class="s-48 w-700">Let's start the Conversation</h2>
 
                                 <!--										&lt;!&ndash; Text &ndash;&gt;-->
-                                <p class="p-xl">We’re ready to accelerate your digital product. Reach out below and we’ll be in touch.</p>
+                                <p class="p-xl">We’re ready to accelerate your digital product. Reach out below and
+                                    we’ll be in touch.</p>
 
                                 <!--										&lt;!&ndash; Button &ndash;&gt;-->
                                 <a href="contacts.html" class="btn r-04 btn&#45;&#45;theme hover&#45;&#45;tra-white">Get
@@ -539,236 +629,236 @@
         </div>
         <!-- &lt;!&ndash; END BANNER-3 &ndash;&gt;-->
     </section>
-<!-- BANNER-6
-============================================= -->
-<!--<section id="banner-6" class="bg&#45;&#45;05 bg&#45;&#45;scroll banner-section">-->
-<!--    <div class="banner-overlay pt-80 pb-90">-->
-<!--        <div class="container">-->
+    <!-- BANNER-6
+    ============================================= -->
+    <!--<section id="banner-6" class="bg&#45;&#45;05 bg&#45;&#45;scroll banner-section">-->
+    <!--    <div class="banner-overlay pt-80 pb-90">-->
+    <!--        <div class="container">-->
 
 
-<!--            &lt;!&ndash; BANNER-6 WRAPPER &ndash;&gt;-->
-<!--            <div class="banner-6-wrapper">-->
-<!--                <div class="row justify-content-center">-->
+    <!--            &lt;!&ndash; BANNER-6 WRAPPER &ndash;&gt;-->
+    <!--            <div class="banner-6-wrapper">-->
+    <!--                <div class="row justify-content-center">-->
 
 
-<!--                    &lt;!&ndash; BANNER-6 TEXT &ndash;&gt;-->
-<!--                    <div class="col-md-9">-->
-<!--                        <div class="banner-6-txt text-center color&#45;&#45;white">-->
+    <!--                    &lt;!&ndash; BANNER-6 TEXT &ndash;&gt;-->
+    <!--                    <div class="col-md-9">-->
+    <!--                        <div class="banner-6-txt text-center color&#45;&#45;white">-->
 
-<!--                            &lt;!&ndash; Title &ndash;&gt;-->
-<!--                            <h3 class="s-46 w-700">Give it a try, it's free!</h3>-->
+    <!--                            &lt;!&ndash; Title &ndash;&gt;-->
+    <!--                            <h3 class="s-46 w-700">Give it a try, it's free!</h3>-->
 
-<!--                            &lt;!&ndash; Text &ndash;&gt;-->
-<!--                            <p class="p-xl o-85">It only takes a few clicks to get started</p>-->
+    <!--                            &lt;!&ndash; Text &ndash;&gt;-->
+    <!--                            <p class="p-xl o-85">It only takes a few clicks to get started</p>-->
 
-<!--                            &lt;!&ndash; Button &ndash;&gt;-->
-<!--                            <a href="#" class="btn r-04 btn&#45;&#45;theme hover&#45;&#45;tra-white" data-bs-toggle="modal"-->
-<!--                               data-bs-target="#modal-3">Get srarted - it's free</a>-->
+    <!--                            &lt;!&ndash; Button &ndash;&gt;-->
+    <!--                            <a href="#" class="btn r-04 btn&#45;&#45;theme hover&#45;&#45;tra-white" data-bs-toggle="modal"-->
+    <!--                               data-bs-target="#modal-3">Get srarted - it's free</a>-->
 
-<!--                            &lt;!&ndash; Button Text &ndash;&gt;-->
-<!--                            <p class="p-sm btn-txt ico-15 o-85">-->
-<!--                                <span class="flaticon-check"></span> Free for 14 days, no credit card required.-->
-<!--                            </p>-->
+    <!--                            &lt;!&ndash; Button Text &ndash;&gt;-->
+    <!--                            <p class="p-sm btn-txt ico-15 o-85">-->
+    <!--                                <span class="flaticon-check"></span> Free for 14 days, no credit card required.-->
+    <!--                            </p>-->
 
-<!--                        </div>-->
-<!--                    </div>    &lt;!&ndash; END BANNER-6 TEXT &ndash;&gt;-->
+    <!--                        </div>-->
+    <!--                    </div>    &lt;!&ndash; END BANNER-6 TEXT &ndash;&gt;-->
 
 
-<!--                </div>   &lt;!&ndash; End row &ndash;&gt;-->
-<!--            </div>    &lt;!&ndash; END BANNER-6 WRAPPER &ndash;&gt;-->
+    <!--                </div>   &lt;!&ndash; End row &ndash;&gt;-->
+    <!--            </div>    &lt;!&ndash; END BANNER-6 WRAPPER &ndash;&gt;-->
 
 
-<!--        </div>    &lt;!&ndash; End container &ndash;&gt;-->
-<!--    </div>     &lt;!&ndash; End banner overlay &ndash;&gt;-->
-<!--</section>    &lt;!&ndash; END BANNER-6 &ndash;&gt;-->
+    <!--        </div>    &lt;!&ndash; End container &ndash;&gt;-->
+    <!--    </div>     &lt;!&ndash; End banner overlay &ndash;&gt;-->
+    <!--</section>    &lt;!&ndash; END BANNER-6 &ndash;&gt;-->
 
 
-<!--&lt;!&ndash; MODAL WINDOW (REQUEST FORM)-->
-<!--============================================= &ndash;&gt;-->
-<!--<div id="modal-3" class="modal auto-off fade" tabindex="-1" role="dialog" aria-labelledby="modal-3">-->
-<!--    <div class="modal-dialog modal-xl modal-dialog-centered">-->
-<!--        <div class="modal-content">-->
+    <!--&lt;!&ndash; MODAL WINDOW (REQUEST FORM)-->
+    <!--============================================= &ndash;&gt;-->
+    <!--<div id="modal-3" class="modal auto-off fade" tabindex="-1" role="dialog" aria-labelledby="modal-3">-->
+    <!--    <div class="modal-dialog modal-xl modal-dialog-centered">-->
+    <!--        <div class="modal-content">-->
 
 
-<!--            &lt;!&ndash; CLOSE BUTTON &ndash;&gt;-->
-<!--            <button type="button" class="btn-close ico-10 white-color" data-bs-dismiss="modal" aria-label="Close">-->
-<!--                <span class="flaticon-cancel"></span>-->
-<!--            </button>-->
+    <!--            &lt;!&ndash; CLOSE BUTTON &ndash;&gt;-->
+    <!--            <button type="button" class="btn-close ico-10 white-color" data-bs-dismiss="modal" aria-label="Close">-->
+    <!--                <span class="flaticon-cancel"></span>-->
+    <!--            </button>-->
 
 
-<!--            &lt;!&ndash; MODAL CONTENT &ndash;&gt;-->
-<!--            <div class="modal-body">-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
+    <!--            &lt;!&ndash; MODAL CONTENT &ndash;&gt;-->
+    <!--            <div class="modal-body">-->
+    <!--                <div class="container">-->
+    <!--                    <div class="row">-->
 
 
-<!--                        &lt;!&ndash; BACKGROUND IMAGE &ndash;&gt;-->
-<!--                        <div class="col-md-5 bg-img d-none d-sm-flex align-items-end"></div>-->
+    <!--                        &lt;!&ndash; BACKGROUND IMAGE &ndash;&gt;-->
+    <!--                        <div class="col-md-5 bg-img d-none d-sm-flex align-items-end"></div>-->
 
 
-<!--                        &lt;!&ndash; REQUEST FORM &ndash;&gt;-->
-<!--                        <div class="col-md-7">-->
-<!--                            <div class="modal-body-content">-->
+    <!--                        &lt;!&ndash; REQUEST FORM &ndash;&gt;-->
+    <!--                        <div class="col-md-7">-->
+    <!--                            <div class="modal-body-content">-->
 
-<!--                                &lt;!&ndash; TEXT &ndash;&gt;-->
-<!--                                <div class="request-form-title">-->
+    <!--                                &lt;!&ndash; TEXT &ndash;&gt;-->
+    <!--                                <div class="request-form-title">-->
 
-<!--                                    &lt;!&ndash; Title 	&ndash;&gt;-->
-<!--                                    <h3 class="s-28 w-700">Get started for Free!</h3>-->
+    <!--                                    &lt;!&ndash; Title 	&ndash;&gt;-->
+    <!--                                    <h3 class="s-28 w-700">Get started for Free!</h3>-->
 
-<!--                                    &lt;!&ndash; Text &ndash;&gt;-->
-<!--                                    <p class="color&#45;&#45;grey">Aliquam augue suscipit, luctus neque purus ipsum-->
-<!--                                        neque dolor primis libero-->
-<!--                                    </p>-->
+    <!--                                    &lt;!&ndash; Text &ndash;&gt;-->
+    <!--                                    <p class="color&#45;&#45;grey">Aliquam augue suscipit, luctus neque purus ipsum-->
+    <!--                                        neque dolor primis libero-->
+    <!--                                    </p>-->
 
-<!--                                </div>-->
+    <!--                                </div>-->
 
-<!--                                &lt;!&ndash; FORM &ndash;&gt;-->
-<!--                                <form name="requestForm" class="row request-form">-->
+    <!--                                &lt;!&ndash; FORM &ndash;&gt;-->
+    <!--                                <form name="requestForm" class="row request-form">-->
 
-<!--                                    &lt;!&ndash; Form Input &ndash;&gt;-->
-<!--                                    <div class="col-md-12">-->
-<!--                                        <input type="text" name="name" class="form-control name"-->
-<!--                                               placeholder="Enter Your Name*" autocomplete="off" required>-->
-<!--                                    </div>-->
+    <!--                                    &lt;!&ndash; Form Input &ndash;&gt;-->
+    <!--                                    <div class="col-md-12">-->
+    <!--                                        <input type="text" name="name" class="form-control name"-->
+    <!--                                               placeholder="Enter Your Name*" autocomplete="off" required>-->
+    <!--                                    </div>-->
 
-<!--                                    &lt;!&ndash; Form Input &ndash;&gt;-->
-<!--                                    <div class="col-md-12">-->
-<!--                                        <input type="email" name="email" class="form-control email"-->
-<!--                                               placeholder="Enter Your Email*" autocomplete="off" required>-->
-<!--                                    </div>-->
+    <!--                                    &lt;!&ndash; Form Input &ndash;&gt;-->
+    <!--                                    <div class="col-md-12">-->
+    <!--                                        <input type="email" name="email" class="form-control email"-->
+    <!--                                               placeholder="Enter Your Email*" autocomplete="off" required>-->
+    <!--                                    </div>-->
 
-<!--                                    &lt;!&ndash; Form Button &ndash;&gt;-->
-<!--                                    <div class="col-md-12 form-btn">-->
-<!--                                        <button type="submit" class="btn btn&#45;&#45;theme hover&#45;&#45;theme submit">Get Started-->
-<!--                                            Now-->
-<!--                                        </button>-->
-<!--                                    </div>-->
+    <!--                                    &lt;!&ndash; Form Button &ndash;&gt;-->
+    <!--                                    <div class="col-md-12 form-btn">-->
+    <!--                                        <button type="submit" class="btn btn&#45;&#45;theme hover&#45;&#45;theme submit">Get Started-->
+    <!--                                            Now-->
+    <!--                                        </button>-->
+    <!--                                    </div>-->
 
-<!--                                    &lt;!&ndash; Form Message &ndash;&gt;-->
-<!--                                    <div class="col-md-12 request-form-msg">-->
-<!--                                        <span class="loading"></span>-->
-<!--                                    </div>-->
+    <!--                                    &lt;!&ndash; Form Message &ndash;&gt;-->
+    <!--                                    <div class="col-md-12 request-form-msg">-->
+    <!--                                        <span class="loading"></span>-->
+    <!--                                    </div>-->
 
-<!--                                </form>    &lt;!&ndash; END FORM &ndash;&gt;-->
+    <!--                                </form>    &lt;!&ndash; END FORM &ndash;&gt;-->
 
-<!--                            </div>-->
-<!--                        </div>    &lt;!&ndash; END REQUEST FORM &ndash;&gt;-->
+    <!--                            </div>-->
+    <!--                        </div>    &lt;!&ndash; END REQUEST FORM &ndash;&gt;-->
 
 
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>    &lt;!&ndash; END MODAL CONTENT &ndash;&gt;-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>    &lt;!&ndash; END MODAL CONTENT &ndash;&gt;-->
 
 
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>    &lt;!&ndash; MODAL WINDOW (REQUEST FORM) &ndash;&gt;-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>    &lt;!&ndash; MODAL WINDOW (REQUEST FORM) &ndash;&gt;-->
 
 
-<!-- FOOTER-3
-============================================= -->
-<footer id="footer-3" class="pt-100 footer">
-    <div class="container">
+    <!-- FOOTER-3
+    ============================================= -->
+    <footer id="footer-3" class="pt-100 footer">
+        <div class="container">
 
 
-        <!-- FOOTER CONTENT -->
-        <!--        <div class="row">-->
+            <!-- FOOTER CONTENT -->
+            <!--        <div class="row">-->
 
 
-        <!--            &lt;!&ndash; FOOTER LOGO &ndash;&gt;-->
-        <!--            <div class="col-xl-3">-->
-        <!--                <div class="footer-info">-->
-        <!--                    <img class="footer-logo" src="images/logo-blue.png" alt="footer-logo">-->
-        <!--                </div>-->
-        <!--            </div>-->
+            <!--            &lt;!&ndash; FOOTER LOGO &ndash;&gt;-->
+            <!--            <div class="col-xl-3">-->
+            <!--                <div class="footer-info">-->
+            <!--                    <img class="footer-logo" src="images/logo-blue.png" alt="footer-logo">-->
+            <!--                </div>-->
+            <!--            </div>-->
 
 
-        <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
-        <!--            <div class="col-sm-4 col-md-3 col-xl-2">-->
-        <!--                <div class="footer-links fl-1">-->
+            <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
+            <!--            <div class="col-sm-4 col-md-3 col-xl-2">-->
+            <!--                <div class="footer-links fl-1">-->
 
-        <!--                    &lt;!&ndash; Title &ndash;&gt;-->
-        <!--                    <h6 class="s-17 w-700">Company</h6>-->
+            <!--                    &lt;!&ndash; Title &ndash;&gt;-->
+            <!--                    <h6 class="s-17 w-700">Company</h6>-->
 
-        <!--                    &lt;!&ndash; Links &ndash;&gt;-->
-        <!--                    <ul class="foo-links clearfix">-->
-        <!--                        <li><p><a href="about.html">About Us</a></p></li>-->
-        <!--                        <li><p><a href="careers.html">Careers</a></p></li>-->
-        <!--                        <li><p><a href="blog-listing.html">Our Blog</a></p></li>-->
-        <!--                        <li><p><a href="contacts.html">Contact Us</a></p></li>-->
-        <!--                    </ul>-->
+            <!--                    &lt;!&ndash; Links &ndash;&gt;-->
+            <!--                    <ul class="foo-links clearfix">-->
+            <!--                        <li><p><a href="about.html">About Us</a></p></li>-->
+            <!--                        <li><p><a href="careers.html">Careers</a></p></li>-->
+            <!--                        <li><p><a href="blog-listing.html">Our Blog</a></p></li>-->
+            <!--                        <li><p><a href="contacts.html">Contact Us</a></p></li>-->
+            <!--                    </ul>-->
 
-        <!--                </div>-->
-        <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
+            <!--                </div>-->
+            <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
 
 
-        <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
-        <!--            <div class="col-sm-4 col-md-3 col-xl-2">-->
-        <!--                <div class="footer-links fl-2">-->
+            <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
+            <!--            <div class="col-sm-4 col-md-3 col-xl-2">-->
+            <!--                <div class="footer-links fl-2">-->
 
-        <!--                    &lt;!&ndash; Title &ndash;&gt;-->
-        <!--                    <h6 class="s-17 w-700">Product</h6>-->
+            <!--                    &lt;!&ndash; Title &ndash;&gt;-->
+            <!--                    <h6 class="s-17 w-700">Product</h6>-->
 
-        <!--                    &lt;!&ndash; Links &ndash;&gt;-->
-        <!--                    <ul class="foo-links clearfix">-->
-        <!--                        <li><p><a href="features.html">Integration</a></p></li>-->
-        <!--                        <li><p><a href="reviews.html">Customers</a></p></li>-->
-        <!--                        <li><p><a href="pricing-1.html">Pricing</a></p></li>-->
-        <!--                        <li><p><a href="help-center.html">Help Center</a></p></li>-->
-        <!--                    </ul>-->
+            <!--                    &lt;!&ndash; Links &ndash;&gt;-->
+            <!--                    <ul class="foo-links clearfix">-->
+            <!--                        <li><p><a href="features.html">Integration</a></p></li>-->
+            <!--                        <li><p><a href="reviews.html">Customers</a></p></li>-->
+            <!--                        <li><p><a href="pricing-1.html">Pricing</a></p></li>-->
+            <!--                        <li><p><a href="help-center.html">Help Center</a></p></li>-->
+            <!--                    </ul>-->
 
-        <!--                </div>-->
-        <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
+            <!--                </div>-->
+            <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
 
 
-        <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
-        <!--            <div class="col-sm-4 col-md-3 col-xl-2">-->
-        <!--                <div class="footer-links fl-3">-->
+            <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
+            <!--            <div class="col-sm-4 col-md-3 col-xl-2">-->
+            <!--                <div class="footer-links fl-3">-->
 
-        <!--                    &lt;!&ndash; Title &ndash;&gt;-->
-        <!--                    <h6 class="s-17 w-700">Legal</h6>-->
+            <!--                    &lt;!&ndash; Title &ndash;&gt;-->
+            <!--                    <h6 class="s-17 w-700">Legal</h6>-->
 
-        <!--                    &lt;!&ndash; Links &ndash;&gt;-->
-        <!--                    <ul class="foo-links clearfix">-->
-        <!--                        <li><p><a href="terms.html">Terms of Use</a></p></li>-->
-        <!--                        <li><p><a href="privacy.html">Privacy Policy</a></p></li>-->
-        <!--                        <li><p><a href="cookies.html">Cookie Policy</a></p></li>-->
-        <!--                        <li><p><a href="#">Site Map</a></p></li>-->
-        <!--                    </ul>-->
+            <!--                    &lt;!&ndash; Links &ndash;&gt;-->
+            <!--                    <ul class="foo-links clearfix">-->
+            <!--                        <li><p><a href="terms.html">Terms of Use</a></p></li>-->
+            <!--                        <li><p><a href="privacy.html">Privacy Policy</a></p></li>-->
+            <!--                        <li><p><a href="cookies.html">Cookie Policy</a></p></li>-->
+            <!--                        <li><p><a href="#">Site Map</a></p></li>-->
+            <!--                    </ul>-->
 
-        <!--                </div>-->
-        <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
+            <!--                </div>-->
+            <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
 
 
-        <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
-        <!--            <div class="col-sm-6 col-md-3">-->
-        <!--                <div class="footer-links fl-4">-->
+            <!--            &lt;!&ndash; FOOTER LINKS &ndash;&gt;-->
+            <!--            <div class="col-sm-6 col-md-3">-->
+            <!--                <div class="footer-links fl-4">-->
 
-        <!--                    &lt;!&ndash; Title &ndash;&gt;-->
-        <!--                    <h6 class="s-17 w-700">Connect With Us</h6>-->
+            <!--                    &lt;!&ndash; Title &ndash;&gt;-->
+            <!--                    <h6 class="s-17 w-700">Connect With Us</h6>-->
 
-        <!--                    &lt;!&ndash; Mail Link &ndash;&gt;-->
-        <!--                    <p class="footer-mail-link ico-25">-->
-        <!--                        <a href="mailto:yourdomain@mail.com">hello@yourdomain.com</a>-->
-        <!--                    </p>-->
+            <!--                    &lt;!&ndash; Mail Link &ndash;&gt;-->
+            <!--                    <p class="footer-mail-link ico-25">-->
+            <!--                        <a href="mailto:yourdomain@mail.com">hello@yourdomain.com</a>-->
+            <!--                    </p>-->
 
-        <!--                    &lt;!&ndash; Social Links &ndash;&gt;-->
-        <!--                    <ul class="footer-socials ico-25 text-center clearfix">-->
-        <!--                        <li><a href="#"><span class="flaticon-facebook"></span></a></li>-->
-        <!--                        <li><a href="#"><span class="flaticon-twitter"></span></a></li>-->
-        <!--                        <li><a href="#"><span class="flaticon-github"></span></a></li>-->
-        <!--                        <li><a href="#"><span class="flaticon-dribbble"></span></a></li>-->
-        <!--                    </ul>-->
+            <!--                    &lt;!&ndash; Social Links &ndash;&gt;-->
+            <!--                    <ul class="footer-socials ico-25 text-center clearfix">-->
+            <!--                        <li><a href="#"><span class="flaticon-facebook"></span></a></li>-->
+            <!--                        <li><a href="#"><span class="flaticon-twitter"></span></a></li>-->
+            <!--                        <li><a href="#"><span class="flaticon-github"></span></a></li>-->
+            <!--                        <li><a href="#"><span class="flaticon-dribbble"></span></a></li>-->
+            <!--                    </ul>-->
 
-        <!--                </div>-->
-        <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
+            <!--                </div>-->
+            <!--            </div>    &lt;!&ndash; END FOOTER LINKS &ndash;&gt;-->
 
 
-        <!--        </div>    &lt;!&ndash; END FOOTER CONTENT &ndash;&gt;-->
+            <!--        </div>    &lt;!&ndash; END FOOTER CONTENT &ndash;&gt;-->
 
 
-        <hr>    <!-- FOOTER DIVIDER LINE -->
+            <hr>    <!-- FOOTER DIVIDER LINE -->
 
 
             <!-- BOTTOM FOOTER -->
@@ -802,8 +892,8 @@
             </div>    <!-- END BOTTOM FOOTER -->
 
 
-    </div>     <!-- End container -->
-</footer>   <!-- END FOOTER-3 -->
+        </div>     <!-- End container -->
+    </footer>   <!-- END FOOTER-3 -->
 
 
 </div>    <!-- END PAGE CONTENT -->
