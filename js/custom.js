@@ -222,8 +222,8 @@
 	
 		var owl = $('.brands-carousel-5');
 			owl.owlCarousel({
-				items: 5,
-				loop:true,
+				items: 3,
+				loop:false,
 				autoplay:true,
 				navBy: 1,
 				nav:false,
@@ -262,6 +262,7 @@
 				items: 5,
 				loop:true,
 				autoplay:true,
+				center:true,
 				navBy: 1,
 				nav:false,
 				autoplayTimeout: 4000,
