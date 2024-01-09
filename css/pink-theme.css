@@ -6365,10 +6365,6 @@ p.rbox-2-txt span {
 /*  BRANDS LOGO IMAGE
 /*------------------------------------------*/
 
-.owl-stage-outer {
-  display: flex;
-  justify-content: center;
-}
 .owl-carousel.owl-drag .owl-item {
   height: 150px;
   display: flex;
