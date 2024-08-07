@@ -1,0 +1,4 @@
+//TypeScript is configured using tsconfig.json.
+{
+  "extends": "astro/tsconfigs/strict"
+}
