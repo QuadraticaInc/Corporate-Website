@@ -8,5 +8,4 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   output: "static",
   adapter: netlify(),
-  publicDir: './src'
 });
