@@ -2,5 +2,10 @@
 //This file is optional if you do not need to configure Astro, but you may wish to create it now.
 import { defineConfig } from "astro/config";
 
+import netlify from "@astrojs/netlify";
+
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  output: "server",
+  adapter: netlify()
+});
