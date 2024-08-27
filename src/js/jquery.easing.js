@@ -215,6 +215,8 @@ jQuery.extend(jQuery.easing, {
   },
 });
 
+export default all;
+
 /*
  *
  * TERMS OF USE - EASING EQUATIONS

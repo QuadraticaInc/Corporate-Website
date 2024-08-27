@@ -524,3 +524,5 @@
   (Modernizr.load = function () {
     yepnope.apply(window, [].slice.call(arguments, 0));
   });
+
+  export default all;

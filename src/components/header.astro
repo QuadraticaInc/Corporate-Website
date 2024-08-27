@@ -1,6 +1,19 @@
 ---
 // Title variable to be passed depending on the page to specify page
 const { title } = Astro.props;
+import "./../styles/bootstrap.min.css";
+import "./../styles/flaticon.css";
+import "./../styles/menu.css";
+import "./../styles/dropdown-effects/fade-down.css";
+import "./../styles/magnific-popup.css";
+import "./../styles/owl.carousel.min.css";
+import "./../styles/owl.theme.default.min.css";
+import "./../styles/lunar.css";
+import "./../styles/animate.css";
+import "./../styles/pink-theme.css";
+
+// RESPONSIVE CSS
+import "./../styles/responsive.css";
 ---
 
 <head>
@@ -20,29 +33,29 @@ const { title } = Astro.props;
   <!-- FAVICON AND TOUCH ICONS -->
   <link
     rel="shortcut icon"
-    href="src/images/favicon.ico"
+    href="images/favicon.ico"
     type="image/x-icon"
   />
-  <link rel="icon" href="src/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link
     rel="apple-touch-icon"
     sizes="152x152"
-    href="src/images/apple-touch-icon-152x152.png"
+    href="images/apple-touch-icon-152x152.png"
   />
   <link
     rel="apple-touch-icon"
     sizes="120x120"
-    href="src/images/apple-touch-icon-120x120.png"
+    href="images/apple-touch-icon-120x120.png"
   />
   <link
     rel="apple-touch-icon"
     sizes="76x76"
-    href="src/images/apple-touch-icon-76x76.png"
+    href="images/apple-touch-icon-76x76.png"
   />
-  <link rel="apple-touch-icon" href="src/images/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
   <link
     rel="icon"
-    href="src/images/apple-touch-icon.png"
+    href="images/apple-touch-icon.png"
     type="image/x-icon"
   />
 
@@ -61,30 +74,29 @@ const { title } = Astro.props;
   />
 
   <!-- BOOTSTRAP CSS -->
-  <link href="styles/bootstrap.min.css" rel="stylesheet" />
+  <link href="./../styles/bootstrap.min.css" rel="stylesheet" />
 
   <!-- FONT ICONS -->
-  <link href="styles/flaticon.css" rel="stylesheet" />
+  <link href="./../styles/flaticon.css" rel="stylesheet" />
 
   <!-- PLUGINS stylesHEET -->
-  <link href="styles/menu.css" rel="stylesheet" />
+  <link href="./../styles/menu.css" rel="stylesheet" />
   <link
     id="effect"
-    href="styles/dropdown-effects/fade-down.css"
+    href="./../styles/dropdown-effects/fade-down.css"
     media="all"
     rel="stylesheet"
   />
-  <link href="styles/magnific-popup.css" rel="stylesheet" />
-  <link href="styles/owl.carousel.min.css" rel="stylesheet" />
-  <link href="styles/owl.theme.default.min.css" rel="stylesheet" />
-  <link href="styles/lunar.css" rel="stylesheet" />
+  <link href="./../styles/magnific-popup.css" rel="stylesheet" />
+  <link href="./../styles/owl.carousel.min.css" rel="stylesheet" />
+  <link href="./../styles/owl.theme.default.min.css" rel="stylesheet" />
+  <link href="./../styles/lunar.css" rel="stylesheet" />
 
   <!-- ON SCROLL ANIMATION -->
-  <link href="styles/animate.css" rel="stylesheet" />
+  <link href="./../styles/animate.css" rel="stylesheet" />
 
   <!-- TEMPLATE CSS -->
-  <link href="styles/pink-theme.css" rel="stylesheet" />
+  <link href="./../styles/pink-theme.css" rel="stylesheet" />
 
-  <!-- RESPONSIVE CSS -->
-  <link href="styles/responsive.css" rel="stylesheet" />
+  <link href="./../styles/responsive.css" rel="stylesheet" />
 </head>
