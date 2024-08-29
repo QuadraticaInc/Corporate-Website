@@ -1,0 +1,101 @@
+---
+// Title variable to be passed depending on the page to specify page
+const { title } = Astro.props;
+import './../styles/bootstrap.min.css';
+import './../styles/flaticon.css';
+import './../styles/menu.css';
+import './../styles/dropdown-effects/fade-down.css';
+import './../styles/magnific-popup.css';
+import './../styles/owl.carousel.min.css';
+import './../styles/owl.theme.default.min.css';
+import './../styles/lunar.css';
+import './../styles/animate.css';
+import './../styles/responsive.css';
+import './../styles/pink-theme.css'
+---
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Quadratica" />
+  <meta name="description" content="Quadratica" />
+  <meta
+    name="keywords"
+    content="Web, Strategy, Software, Mobile App, Creative, Digital Product"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SITE TITLE -->
+  <title>{title} | Quadratica</title>
+
+  <!-- FAVICON AND TOUCH ICONS -->
+  <link
+    rel="shortcut icon"
+    href="/src/images/favicon.ico"
+    type="image/x-icon"
+  />
+  <link rel="icon" href="/src/images/favicon.ico" type="image/x-icon" />
+  <link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="/src/images/apple-touch-icon-152x152.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="120x120"
+    href="/src/images/apple-touch-icon-120x120.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="76x76"
+    href="/src/images/apple-touch-icon-76x76.png"
+  />
+  <link rel="apple-touch-icon" href="/src/images/apple-touch-icon.png" />
+  <link
+    rel="icon"
+    href="/src/images/apple-touch-icon.png"
+    type="image/x-icon"
+  />
+
+  <!-- GOOGLE FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="styles/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- FONT ICONS -->
+  <link href="styles/flaticon.css" rel="stylesheet" />
+
+  <!-- PLUGINS stylesHEET -->
+  <link href="styles/menu.css" rel="stylesheet" />
+  <link
+    id="effect"
+    href="styles/dropdown-effects/fade-down.css"
+    media="all"
+    rel="stylesheet"
+  />
+  <link href="src/styles/magnific-popup.css" rel="stylesheet" />
+  <link href="src/styles/magnific-popup.css" rel="stylesheet" />
+  <link href="src/styles/owl.carousel.min.css" rel="stylesheet" />
+  <link href="src/styles/owl.theme.default.min.css" rel="stylesheet" />
+  <link href="src/styles/lunar.css" rel="stylesheet" />
+
+  <!-- ON SCROLL ANIMATION -->
+  <link href="src/styles/animate.css" rel="stylesheet" />
+
+  <!-- TEMPLATE CSS -->
+  <link href="src/styles/pink-theme.css" rel="stylesheet" />
+
+  <link href="src/styles/responsive.css" rel="stylesheet" />
+</head>
