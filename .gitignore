@@ -6,4 +6,4 @@
 .netlify
 
 #local distrubution folder
-.dist
+/dist
