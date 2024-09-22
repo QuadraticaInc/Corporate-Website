@@ -1,6 +1,7 @@
 ---
 import Header from "../components/header.astro";
 import Scripts from "../components/scripts.astro";
+import Footer from "../components/footer.astro";
 ---
 
 <!doctype html>
@@ -61,7 +62,8 @@ import Scripts from "../components/scripts.astro";
                       </li>
                       <li aria-haspopup="true">
                         <a href="careers"
-                          >Careers <span class="sm-info">4</span></a>
+                          >Careers <span class="sm-info">4</span></a
+                        >
                       </li>
                       <li aria-haspopup="true">
                         <a href="reviews">Customers</a>
@@ -142,9 +144,7 @@ import Scripts from "../components/scripts.astro";
                 </h6>
 
                 <!-- Button -->
-                <a href="/" class="btn btn--theme hover--theme"
-                  >Back to home</a
-                >
+                <a href="/" class="btn btn--theme hover--theme">Back to home</a>
               </div>
             </div>
             <!-- END 404 PAGE TEXT -->
@@ -158,46 +158,7 @@ import Scripts from "../components/scripts.astro";
       <!-- DIVIDER LINE -->
       <hr class="divider divider-light" />
 
-      <!-- FOOTER-11
-				  ============================================= -->
-      <footer id="footer-11" class="bg--white-300 pt-50 footer">
-        <div class="container">
-          <!-- BOTTOM FOOTER -->
-          <div class="bottom-footer">
-            <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-              <!-- FOOTER COPYRIGHT -->
-              <div class="col">
-                <div class="footer-copyright">
-                  <p class="p-sm">&copy; 2014-2023 Martex Labs, Inc.</p>
-                </div>
-              </div>
-
-              <!-- FOOTER LINKS -->
-              <div class="col">
-                <ul class="bottom-footer-list ico-15 text-end">
-                  <li>
-                    <p class="p-sm">
-                      <a href="privacy">Privacy Policy</a>
-                    </p>
-                  </li>
-                  <li class="footer-list-divider">
-                    <p><span class="flaticon-minus"></span></p>
-                  </li>
-                  <li>
-                    <p class="p-sm">
-                      <a href="terms">Terms & Conditions</a>
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End row -->
-          </div>
-          <!-- END BOTTOM FOOTER -->
-        </div>
-        <!-- End container -->
-      </footer>
-      <!-- END FOOTER-11 -->
+      <Footer />
     </div>
     <!-- END PAGE CONTENT -->
 
