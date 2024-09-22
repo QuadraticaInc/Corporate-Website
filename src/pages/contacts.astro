@@ -179,6 +179,7 @@ import Footer from "../components/footer.astro";
                   name="contactform"
                   data-netlify="true"
                   class="row contact-form"
+                  data-netlify-recaptcha="true"
                 >
                   <!-- Form Select -->
                   <!--									<div class="col-md-12 input-subject">-->
@@ -225,6 +226,13 @@ import Footer from "../components/footer.astro";
                       name="message"
                       rows="6"></textarea>
                   </div>
+                  
+                  <!-- Netlify ReCaptcha Container -->
+                  <div class="d-flex justify-content-center">
+                    <!-- Netlify ReCaptcha -->
+                    <div data-netlify-recaptcha="true" ></div>
+                  </div>
+                  
 
                   <!-- Contact Form Button -->
                   <div class="col-md-12 mt-15 form-btn text-right">
